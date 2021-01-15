@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>{% load static%}
+
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'home/style.css'%}">
+</head>
+<body>
+	<div class="menu">
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>PYTHON</li>
+			<li>JAVASCRIPT</li>
+			<li>NODEJS</li>
+			<li>REACT</li>
+		</ul>
+	</div>
+	<div class="content">
+		{% block content%}
+		
+		{% endblock%}
+	</div>
+</body>
+</html>
