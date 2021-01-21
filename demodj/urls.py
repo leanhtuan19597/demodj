@@ -4,7 +4,9 @@ from django.urls import path, include
 
 # đây là đường dẫn urls
 urlpatterns = [
-    path('', include('home.urls')),
-    path('post/', include('post.urls')),
+    path('home/', include('home.urls')),
+    path('blog/', include('blog.urls')),
     path('product/', include('product.urls')),
+    path('contact/', include('contact.urls')),
+    
 ]

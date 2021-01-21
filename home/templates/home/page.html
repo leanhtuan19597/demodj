@@ -8,10 +8,10 @@
 <body>
 	<div class="menu">
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Product</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="{% url 'home:home' %}">Home</a></li>
+			<li><a href="{% url 'blog:blog' %}">Blog</a></li>
+			<li><a href="{% url 'product:product' %}">Product</a></li>
+			<li><a href="{% url 'contact:contact' %}">Contact</a></li>
 		</ul>
 	</div>
 	<div class="content">
